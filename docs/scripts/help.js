@@ -23,8 +23,9 @@ const titleOf=p=>webTitles[p.id]||p.title;
 $('#index-nav').innerHTML=`<a class="topic-link nav-home" href="#ayuda">Inicio de la ayuda</a>`+groups.map(g=>{
  let last='',html='';
  for(const p of g.items){const key=moduleKey(p);
-  if(key!==last){html+=key?`<h3 class="nav-module">${icon(key,24)}Módulo ${esc(moduleName(p).toLowerCase())}</h3>`:'';last=key;}
+  if(key!==last){if(last)html+='</div>';if(key)html+=`<h3 class="nav-module">${icon(key,24)}Módulo ${esc(moduleName(p).toLowerCase())}</h3><div class="module-topics">`;last=key;}
   html+=`<a class="topic-link" href="#${p.id}">${esc(titleOf(p))}</a>`;}
+ if(last)html+='</div>';
  return `<section class="nav-group"><h2>${g.name}</h2>${html}</section>`;}).join('');
 
 const mobile=matchMedia('(max-width:760px)');
