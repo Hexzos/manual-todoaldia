@@ -63,6 +63,8 @@ La barra superior repite la disposición de la barra del sistema: identidad a la
 
 La navegación está pensada para quien recién comienza a usar sitios web. El índice lateral muestra los grupos y los módulos sin secciones que haya que abrir; el tema en pantalla queda marcado y el índice se desplaza hasta él. El inicio presenta la portada de la ayuda, la búsqueda, tres primeros pasos numerados, los tres grupos del recorrido, la grilla con los doce módulos del menú del sistema —inbox y reportes aparecen como PRONTO— y las tareas más consultadas. Los grupos van antes que los módulos para orientar primero y evitar la saturación de doce tarjetas. Cada tema termina con el paso anterior, el siguiente y el regreso al inicio de la ayuda.
 
+Los antetítulos, los títulos de sección y los títulos de tarjeta repiten la escala de la página Aprende de todoaldia.cl: antetítulo de 14 px en peso 800 con el naranja de marca, título de sección de 24 px y título de tarjeta de 19 px, ambos en peso 800. El naranja oscuro se reserva para el texto que se lee seguido: ruta de navegación, enlaces de tarjeta y botones de recorrido.
+
 build-web.mjs genera el índice web; help.js controla la navegación y help.css define los estilos exclusivos de esta vista. npm run docs:html genera las tres guías y luego la ayuda web. npm run web:check verifica navegación, búsqueda, tema, imágenes ampliadas y ausencia de desbordamientos en los 89 temas a 1440 y 390 px. docs:check verifica únicamente las tres guías A4.
 
 Las variantes HTML siguen siendo documentos independientes. Los PDF de output/pdf se conservan como hito y no se regeneran con el build HTML. No se publicó la ayuda en un servidor externo.
