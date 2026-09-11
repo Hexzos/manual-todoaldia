@@ -1,0 +1,14 @@
+
+# Dependencies
+docs/node_modules/
+
+# Generated documentation
+docs/dist/
+output/pdf/
+
+# Temporary development and QA files
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
