@@ -1,0 +1,75 @@
+a {
+  color: var(--td-accent-text);
+  text-underline-offset: 4px;
+}
+a:focus-visible {
+  outline: 3px solid var(--td-orange);
+  outline-offset: 5px;
+}
+
+.pill {
+  display: inline-block;
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 99px;
+  background: var(--td-tint);
+}
+.card {
+  background: var(--td-surface);
+  padding: var(--td-space-md);
+  border: 1px solid var(--td-border);
+  border-radius: var(--td-radius-lg);
+  box-shadow: var(--td-shadow-card);
+  display: grid;
+  align-content: start;
+  gap: 12px;
+}
+.note {
+  padding: 20px 24px;
+  border-radius: var(--td-radius-sm);
+  background: var(--td-tint);
+  border: 1px solid #f6d8bf;
+}
+figure {
+  margin: 0;
+  min-width: 0;
+}
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--td-radius-sm);
+  border: 1px solid var(--td-border);
+  box-shadow: var(--td-shadow-card);
+}
+figcaption {
+  margin-top: var(--td-space-sm);
+}
+
+.steps {
+  list-style: none;
+  counter-reset: step;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--td-space-md);
+}
+.steps li {
+  counter-increment: step;
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  gap: 12px;
+}
+.steps li::before {
+  content: counter(step, decimal-leading-zero);
+  color: var(--td-accent-text);
+  font-weight: 700;
+}
+.steps li p {
+  margin-top: 8px;
+}
+.number {
+  color: var(--td-accent-text);
+  font-size: 28px;
+  font-weight: 700;
+}

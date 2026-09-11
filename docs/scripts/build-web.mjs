@@ -1,0 +1,14 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {pages} from '../src/manual-content.mjs';
+const manifest=JSON.parse(await readFile(new URL('../assets/screenshots/manifest.json',import.meta.url),'utf8'));
+const articles=pages.filter(p=>!p.cover&&!p.toc&&p.id!=='pendientes');
+const data=JSON.stringify({articles,manifest}).replaceAll('<','\\u003c');
+await writeFile(new URL('../src/index.html',import.meta.url),`<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Primeros pasos · Ayuda Todo al Día</title><link rel="stylesheet" href="../styles/tokens.css"><link rel="stylesheet" href="../styles/typography.css"><link rel="stylesheet" href="../styles/help.css"><script>try{document.documentElement.dataset.theme=localStorage.getItem('todoaldia-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch{}</script></head>
+<body><a class="skip" href="#content">Saltar al contenido</a>
+<header class="topbar"><a class="brand" href="#ayuda"><img src="../assets/screenshots/marca-todoaldia.png" alt="" width="38" height="38"><span>Todo al Día<small>Centro de ayuda</small></span></a><div class="top-actions"><button id="index-toggle" aria-controls="sidebar" aria-expanded="true"><span aria-hidden="true">☰</span> <span id="index-label">Ocultar índice</span></button><a class="home-link" href="#ayuda">Inicio</a><button id="theme-toggle" aria-pressed="false">Modo oscuro</button></div></header>
+<div class="workspace"><aside id="sidebar" aria-label="Índice de primeros pasos"><div class="sidebar-heading"><strong>En esta guía</strong><span>PRIMEROS PASOS</span></div><nav id="index-nav" aria-label="Temas por grupo"></nav><div class="sidebar-note">Elige un tema o sigue el recorrido paso a paso.</div></aside><button id="scrim" tabindex="-1" aria-label="Cerrar índice" hidden></button>
+<main id="content" tabindex="-1"><div class="search-box"><label for="search">¿Qué necesitas aprender?</label><div class="search-input"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar: abrir caja, mesas, productos…" autocomplete="off"><button id="clear-search" hidden>Limpiar</button></div></div><section id="search-results" aria-label="Resultados de búsqueda" hidden><p id="search-status" role="status"></p><div id="result-list"></div></section><div id="view"></div><footer class="web-footer">Todo al Día · Primeros pasos <span>Una ayuda para cada momento de tu negocio.</span></footer></main></div>
+<dialog id="image-dialog"><button id="close-image">Cerrar imagen ×</button><img alt=""><p></p></dialog>
+<script id="help-data" type="application/json">${data}</script><script src="../scripts/help.js" defer></script></body></html>`);
+console.log(`Ayuda web: ${articles.length} artículos en index.html.`);

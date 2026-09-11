@@ -1,0 +1,14 @@
+{
+  "pedidos": {"source":"iconos/Iconos-modulos.png","crop":[82,74,269,266]},
+  "preparacion": {"source":"iconos/Iconos-modulos.png","crop":[438,74,280,266]},
+  "mesas": {"source":"iconos/Iconos-modulos.png","crop":[818,74,281,266]},
+  "caja": {"source":"iconos/Iconos-modulos.png","crop":[1191,74,276,266]},
+  "inbox": {"source":"iconos/Iconos-modulos.png","crop":[82,385,268,270]},
+  "ventas": {"source":"iconos/Iconos-modulos.png","crop":[438,385,280,270]},
+  "productos": {"source":"iconos/Iconos-modulos.png","crop":[819,385,280,270]},
+  "clientes": {"source":"iconos/Iconos-modulos.png","crop":[1191,385,276,270]},
+  "gastos": {"source":"iconos/Iconos-modulos.png","crop":[83,703,265,257]},
+  "reportes": {"source":"iconos/Iconos-modulos.png","crop":[439,703,278,257]},
+  "configuracion": {"source":"iconos/Iconos-modulos.png","crop":[819,703,280,257]},
+  "tienda": {"source":"screenshots/1-acceso/acceso-menu-principal-operacion-diaria.png","crop":[788,76,61,61]}
+}

@@ -1,0 +1,134 @@
+1. Lo que documentamos a partir de tus pantallazos y explicaciones: será la fuente principal para nombres, controles y comportamiento. 
+2.  La web oficial de [Todo al Día](https://todoaldia.cl/?utm_source=chatgpt.com): sirve para complementar el propósito general y la relación entre módulos. La web confirma, por ejemplo, Caja POS, Pedidos y preparación, Delivery y despachos, Productos e inventario, Ventas/gastos/reportes y sitio web de ventas.  
+No usaría el lenguaje comercial de la landing literalmente dentro del manual; lo transformaría en definiciones funcionales y neutrales.
+Es el punto de entrada al espacio de trabajo de Todo al Día. Reúne las aplicaciones disponibles para el negocio y permite acceder a las distintas áreas de la operación. La disponibilidad de cada aplicación puede depender del rubro, configuración y permisos asociados al usuario. La propia web describe que cada persona puede acceder a las aplicaciones correspondientes a su función. 
+Ejemplo: desde esta vista se puede pasar de la operación diaria a áreas como Caja, Pedidos, Preparación o las herramientas de gestión disponibles.
+Reúne los pedidos que ingresan al negocio y permite seguirlos a través de sus distintos estados. Está pensado como el punto de seguimiento entre la recepción de una solicitud y su posterior preparación o entrega.
+Los pedidos pueden provenir de distintos canales habilitados. La web oficial menciona pedidos provenientes del sitio web, WhatsApp o teléfono y los describe mediante un tablero organizado por estados. 
+Ejemplo: cuando entra un nuevo pedido, este puede seguirse desde Pedidos mientras avanza hacia preparación y posteriormente hacia su entrega.
+Es la vista operativa destinada a organizar aquello que debe prepararse después de recibir un pedido. Dependiendo del rubro, puede servir como una vista para cocina o bodega.
+La web oficial describe esta relación como un flujo que comienza con el pedido y continúa hacia una vista de preparación para cocina o bodega. 
+Ejemplo: un pedido registrado puede aparecer posteriormente en Preparación, permitiendo que el área correspondiente conozca lo que debe preparar.
+Organiza la atención asociada al salón cuando el negocio trabaja con mesas. Conecta la atención presencial con el flujo de pedidos y preparación.
+Ejemplo: en un restaurante, una solicitud asociada a una mesa puede integrarse al flujo operativo sin mantener un registro separado del resto de los pedidos.
+Es el espacio destinado a registrar ventas realizadas directamente desde el punto de atención.
+La documentación que revisamos mediante pantallazos incluye el flujo de turno, nueva venta, movimientos de efectivo, cierre e historial. La web oficial también describe Caja POS como una venta asistida por buscador y productos, medios de pago y recibo, junto con apertura y cierre de turno. 
+Ejemplo: durante una venta, Caja permite localizar los productos, incorporarlos a la operación y revisar la venta antes de continuar con las acciones disponibles.
+Representa el periodo durante el cual se registran las operaciones de una caja. Permite separar la actividad correspondiente a una jornada o periodo de trabajo.
+Ejemplo: la apertura establece el comienzo de la actividad de caja y el cierre permite finalizar ese periodo manteniendo su registro.
+Es el flujo de Caja destinado a registrar una operación de venta. Reúne los productos seleccionados y la información necesaria para avanzar con la operación.
+Ejemplo: los productos solicitados por un cliente se incorporan a la venta y pueden revisarse antes de continuar.
+Área de Caja relacionada con movimientos de dinero que necesitan quedar registrados durante el turno, además de las ventas.
+Debe mantenerse la descripción exacta de los tipos de movimiento conforme a las capturas disponibles; no conviene incorporar categorías que todavía no hayan sido confirmadas.
+Permite finalizar el turno activo y reunir la información correspondiente a ese periodo.
+Ejemplo: al finalizar la jornada, el cierre separa la actividad terminada de un próximo turno.
+Conserva la referencia de operaciones o turnos anteriores disponibles desde Caja, facilitando la consulta de actividad ya finalizada.
+Corresponde al área relacionada con la presencia de venta online del negocio. La web oficial indica que Todo al Día puede ofrecer un sitio con la marca del negocio: como carta con delivery para restaurantes o catálogo e-commerce con carrito y checkout para negocios que venden productos. Los pedidos generados allí llegan al panel. 
+Ejemplo: un producto configurado como visible en el sitio puede formar parte del catálogo que encuentra el cliente en la tienda online.
+Reúne el registro de las ventas realizadas y permite consultar la actividad comercial del negocio. La web señala que cada venta puede conservar información asociada a su cajero y recibo, formando parte del área de ventas y reportes. 
+Ejemplo: después de registrar operaciones en Caja, Ventas sirve como espacio de consulta de la actividad ya registrada.
+Es el módulo donde se administra el catálogo del negocio. La vista que revisamos incluye información como Producto, Vendidos, Precio y costo, Margen, Se vende y Web.
+La web lo presenta conjuntamente con inventario y confirma características como costo y margen, venta por unidad o a granel, stock e importación masiva. 
+Ejemplo: un nuevo producto puede incorporar nombre, categoría, descripción, costo y precio antes de definir configuraciones adicionales.
+Distingue la naturaleza de aquello que se ofrece.
+Físico: asociado a inventario y despacho.
+Servicio: sin stock ni envío.
+Modalidad en la que el producto se cobra por pieza o combo.
+Modalidad en la que el producto se cobra de acuerdo con peso o volumen.
+Representan versiones de un mismo producto, como talla, color o tamaño. Una combinación puede mantener información propia de precio, costo o stock cuando corresponda.
+No deben confundirse con Pack y opciones.
+Agrupa agregados que pueden acompañar al producto, como una garantía, envoltorio o accesorios.
+Mientras Variantes describe versiones del producto, Pack y opciones incorpora elecciones adicionales.
+Representa las existencias controladas para un producto. Puede activarse mediante Controlar el stock de este producto cuando corresponda.
+Determina si el producto forma parte de la oferta disponible en la tienda online.
+Dato expresado en kilogramos que puede intervenir en cálculos de despacho basados en peso.
+Permiten añadir información adicional correspondiente a la ficha técnica del producto.
+Reúne la información de las personas que compran en el negocio y algunos indicadores asociados a su actividad.
+La vista revisada incluye Clientes registrados, Frecuentes, Ticket promedio y Por recuperar, además de filtros y búsqueda.
+Ejemplo: un registro puede localizarse desde el buscador para consultar su actividad, contactar al cliente o editar sus datos.
+Segmentación utilizada por la interfaz para identificar clientes que cumplen los criterios de recurrencia establecidos por el sistema.
+Indicador asociado a clientes que podrían requerir seguimiento de acuerdo con los criterios utilizados por Todo al Día.
+Indica la relación del registro del cliente con una cuenta disponible en el sitio.
+Acción disponible desde determinados registros para Enviar mensaje por WhatsApp.
+Acción disponible para Enviar correo al cliente.
+La acción denominada Excel permite exportar los registros de clientes en formato CSV.
+Permite registrar y consultar costos relacionados con la operación del negocio.
+Su vista principal reúne Gasto del mes, Costos fijos, Costos variables y Por pagar.
+La web oficial también confirma gastos fijos y variables, comprobantes adjuntos y datos exportables. 
+Gasto descrito en la interfaz como aquel que se repite cada mes.
+Gasto que cambia mes a mes.
+Estado que identifica un gasto que todavía permanece pendiente de pago.
+Clasificación utilizada para organizar los gastos registrados. Las categorías pueden agregarse, editarse y eliminarse.
+Renombrar o eliminar una categoría no modifica el nombre que quedó almacenado en gastos registrados anteriormente.
+Archivo asociado al gasto que puede representar, por ejemplo, una boleta, factura o captura de transferencia. La interfaz admite PDF o imagen.
+Sección del registro de gastos destinada a asociar productos adquiridos. La interfaz indica que estos entran al inventario al guardar.
+La acción Excel permite obtener los datos de gastos en formato CSV.
+Agrupa los ajustes que determinan cómo funciona el negocio dentro de Todo al Día. La documentación revisada se divide, entre otras áreas, en Negocio y Operación.
+Centraliza la información principal de identificación del negocio. Puede incluir logo, nombre comercial, razón social, RUT, dirección, ciudad, teléfono, correo y mensaje del recibo.
+La interfaz indica que parte de esta información aparece en el panel, sitio web y recibo impreso.
+Define los días y horas en que el negocio atiende. Cada jornada puede contemplar estado abierto/cerrado, apertura, cierre y cierre al medio.
+Administra las imágenes promocionales o informativas que aparecen en el sitio público. Pueden existir versiones para escritorio y móvil, además de acciones vinculadas al banner, como Ir a una categoría.
+Define los medios aceptados por el negocio. Hemos confirmado:
+- Efectivo 
+- Transferencia 
+- Tarjeta 
+La configuración de transferencia puede incluir titular, RUT, banco, tipo y número de cuenta.
+Determina qué canales se encuentran habilitados:
+- Sitio web 
+- WhatsApp 
+- Teléfono 
+- En el local 
+La interfaz advierte que siempre debe permanecer al menos uno activo.
+Agrupa configuraciones relacionadas con la entrega de compras realizadas desde el sitio.
+Incluye opciones observadas como Retiro en tienda, Delivery local y Envío por pagar.
+También pueden configurarse couriers, entre ellos Bluexpress y Starken, con valores como tarifa base y costo por kilogramo.
+Modalidad en la que la dirección indicada por el cliente se relaciona con la configuración de Zonas de reparto.
+Permite crear reglas promocionales que pueden aplicarse en Caja, sitio web o ambos, según su configuración.
+Tipos confirmados:
+- % descuento 
+- $ descuento 
+- 2×1 
+- Envío gratis 
+Pueden delimitarse por catálogo, categorías o productos y utilizar programación por días, horas y fechas.
+Configura datos del canal, como Número y Nombre visible.
+No debe confundirse con Canales de venta: el primero configura la información del canal; el segundo determina si WhatsApp está activo.
+Permite definir geográficamente dónde realiza despachos el negocio y cuánto cuesta cada área.
+Su flujo confirmado es:
+Ubicar local → Dibujar zonas → Revisar
+Establece el punto de referencia utilizado para organizar las zonas de reparto. La ubicación puede buscarse mediante la dirección y ajustarse moviendo el pin cuando sea necesario.
+Área trazada mediante vértices sobre el mapa. Cada zona puede identificarse mediante un color, nombre y precio.
+Conceptualmente:
+ubicación del negocio + área dibujada + tarifa = zona de reparto
+Define qué ocurre con direcciones situadas fuera de todas las zonas configuradas.
+Las opciones confirmadas son Cobrar un precio único fuera de las zonas y No repartir fuera de las zonas.
+Permite establecer un monto de compra a partir del cual el despacho queda sin costo. Sin envío gratis desactiva este criterio.
+Área de Operación destinada al equipo y modo de reparto.
+Tenemos identificada su existencia, pero su funcionamiento detallado todavía no quedó documentado mediante las capturas revisadas, por lo que el glosario no debería inventar controles internos.
+Área asociada a la conexión con la central/red de reparto.
+La web pública confirma que Todo al Día contempla repartidores propios o de la red, geolocalización y calificación de entregas; sin embargo, esto no basta para atribuir controles concretos a la pantalla de configuración. 
+Área de Operación identificada en la interfaz como QZ Tray y documentos.
+Todavía falta revisar sus pantallas antes de documentar botones, campos o flujo.
+Es el conjunto funcional encargado de la entrega de pedidos. La web oficial lo describe mediante tarifas por zona, repartidores propios o de la red, geolocalización y calificación de entregas/despachos. 
+En el manual conviene tratarlo como un flujo relacionado con Pedidos, Zonas de reparto, Repartidores y la configuración de Tienda online, en lugar de presentarlo como una función aislada.
+Representa el control de existencias asociado a los productos. La web lo relaciona con stock, costos, categorías y alertas, mientras que nuestras pantallas confirman que determinados productos pueden activar control de stock y que compras registradas desde Gastos pueden incorporarse al inventario. 
+Estas relaciones son importantes porque permitirán que el lector comprenda que los módulos no funcionan como aplicaciones completamente aisladas:
+Pedidos → Preparación: el pedido recibido continúa hacia el área encargada de prepararlo. La web confirma este flujo por estados. 
+Caja → Ventas: una operación registrada pasa a formar parte de la actividad comercial consultable.
+Productos → Caja / Tienda: el catálogo alimenta los espacios donde se ofrecen los productos.
+Productos → Inventario: el control de stock mantiene las existencias relacionadas con los productos.
+Gastos → Inventario: los productos incorporados mediante ¿Qué compraste? entran al inventario al guardar.
+Tienda online → Zonas de reparto: Delivery local utiliza las áreas y tarifas definidas en Zonas de reparto.
+Canales de venta → WhatsApp Business: uno controla la disponibilidad del canal y el otro sus datos.
+Pedidos → Delivery: cuando corresponde despacho, el pedido continúa hacia el flujo de reparto.
+Sitio web → Pedidos: la web oficial confirma que los pedidos generados en el sitio llegan directamente al panel. 
+No presentaría todo esto como una única página de “diccionario”. Hay suficiente contenido para crear un Glosario de Todo al Día al final del manual, ordenado por módulos:
+Operación diaria: Pedidos · Preparación · Mesas · Caja · Delivery/Despachos
+ Gestión: Ventas · Productos · Inventario · Clientes · Gastos
+ Venta online: Tienda · Canales de venta · Tienda online
+ Configuración: Negocio · Operación · Zonas de reparto · Repartidores · Red de reparto · Impresoras
+Y dentro de cada entrada usaría un patrón muy breve:
+Zonas de reparto
+ Define las áreas donde el negocio realiza despachos y la tarifa correspondiente a cada una. Se relaciona con Tienda online → Delivery local.
+Así el glosario puede ocupar pocas páginas, mientras que las explicaciones extensas que acabamos de recuperar quedan como fuente para las páginas individuales de cada módulo.
+Además, la información pública coincide con la lógica general que habíamos levantado: Todo al Día conecta Caja, pedidos/preparación, delivery, productos/inventario, ventas/gastos y el sitio de ventas dentro de un mismo flujo. 
+Para los siguientes módulos —especialmente Repartidores, Red de reparto e Impresoras— mantendría las entradas generales hasta que revisemos sus pantallazos; la web permite confirmar su contexto, pero no los controles específicos de esas pantallas.

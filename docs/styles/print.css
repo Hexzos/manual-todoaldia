@@ -1,0 +1,30 @@
+﻿@page {
+  size: A4 landscape;
+  margin: 0;
+}
+@media print {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--td-bg);
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  main {
+    width: 297mm;
+    margin: 0;
+    padding: 0;
+  }
+  .page {
+    width: 297mm;
+    height: 210mm;
+    margin: 0;
+    box-shadow: none;
+    break-after: page;
+    break-inside: avoid;
+  }
+  .page:last-child {
+    break-after: auto;
+  }
+}

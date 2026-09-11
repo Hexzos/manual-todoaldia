@@ -1,0 +1,23 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "node scripts/preview.mjs",
+    "docs:preview": "npm run preview",
+    "docs:html": "node scripts/build-html.mjs",
+    "docs:check": "node scripts/check-preview.mjs",
+    "docs:pdf": "node scripts/build-pdf.mjs",
+    "web:check": "node scripts/check-web.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "playwright": "^1.63.0",
+    "prettier": "^3.9.6"
+  }
+}

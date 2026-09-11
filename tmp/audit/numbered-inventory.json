@@ -1,0 +1,182 @@
+﻿[
+    {
+        "group":  "0-inicio-de-sesion",
+        "width":  1910,
+        "file":  "pantalla-inicio-de-sesion.png",
+        "height":  916
+    },
+    {
+        "group":  "1-acceso",
+        "width":  1915,
+        "file":  "acceso-menu-principal-asistencia-1.png",
+        "height":  910
+    },
+    {
+        "group":  "1-acceso",
+        "width":  650,
+        "file":  "acceso-menu-principal-asistencia-2.png",
+        "height":  417
+    },
+    {
+        "group":  "1-acceso",
+        "width":  647,
+        "file":  "acceso-menu-principal-asistencia-3.png",
+        "height":  420
+    },
+    {
+        "group":  "1-acceso",
+        "width":  647,
+        "file":  "acceso-menu-principal-asistencia-4.png",
+        "height":  370
+    },
+    {
+        "group":  "1-acceso",
+        "width":  1907,
+        "file":  "acceso-menu-principal-avisos.png",
+        "height":  912
+    },
+    {
+        "group":  "1-acceso",
+        "width":  1891,
+        "file":  "acceso-menu-principal-barra-busqueda.png",
+        "height":  232
+    },
+    {
+        "group":  "1-acceso",
+        "width":  1892,
+        "file":  "acceso-menu-principal-barra-navegacion.png",
+        "height":  72
+    },
+    {
+        "group":  "1-acceso",
+        "width":  1882,
+        "file":  "acceso-menu-principal-modulos-gestion.png",
+        "height":  297
+    },
+    {
+        "group":  "1-acceso",
+        "width":  1895,
+        "file":  "acceso-menu-principal-modulos-operacion-diaria.png",
+        "height":  187
+    },
+    {
+        "group":  "1-acceso",
+        "width":  1882,
+        "file":  "acceso-menu-principal-modulos-servicio.png",
+        "height":  197
+    },
+    {
+        "group":  "1-acceso",
+        "width":  651,
+        "file":  "acceso-menu-principal-novedades.png",
+        "height":  706
+    },
+    {
+        "group":  "1-acceso",
+        "width":  1911,
+        "file":  "acceso-menu-principal-parte1.png",
+        "height":  912
+    },
+    {
+        "group":  "1-acceso",
+        "width":  1917,
+        "file":  "acceso-menu-principal-parte2.png",
+        "height":  912
+    },
+    {
+        "group":  "2-pedidos",
+        "width":  1886,
+        "file":  "modulo-pedidos-vista-general.png",
+        "height":  910
+    },
+    {
+        "group":  "2-pedidos",
+        "width":  1891,
+        "file":  "modulo-pedidos-vista-general-menu-pedidos-despachos.png",
+        "height":  912
+    },
+    {
+        "group":  "2-pedidos",
+        "width":  1891,
+        "file":  "modulo-pedidos-vista-general-menu-pedidos-entregas.png",
+        "height":  912
+    },
+    {
+        "group":  "2-pedidos",
+        "width":  1887,
+        "file":  "modulo-pedidos-vista-general-menu-pedidos-nuevos.png",
+        "height":  911
+    },
+    {
+        "group":  "2-pedidos",
+        "width":  1890,
+        "file":  "modulo-pedidos-vista-listado.png",
+        "height":  911
+    },
+    {
+        "group":  "3-preparacion",
+        "width":  630,
+        "file":  "modulo-preparacion-vista-opciones-listo.png",
+        "height":  717
+    },
+    {
+        "group":  "3-preparacion",
+        "width":  627,
+        "file":  "modulo-preparacion-vista-opciones-por-aceptar.png",
+        "height":  705
+    },
+    {
+        "group":  "3-preparacion",
+        "width":  642,
+        "file":  "modulo-preparacion-vista-opciones-preparando.png",
+        "height":  737
+    },
+    {
+        "group":  "3-preparacion",
+        "width":  1912,
+        "file":  "modulo-preparacion-vista-principal.png",
+        "height":  912
+    },
+    {
+        "group":  "4-mesas",
+        "width":  1910,
+        "file":  "Captura de pantalla 2026-09-08 172817.png",
+        "height":  757
+    },
+    {
+        "group":  "4-mesas",
+        "width":  1910,
+        "file":  "modulo-mesas-vista-lista-interior.png",
+        "height":  685
+    },
+    {
+        "group":  "4-mesas",
+        "width":  1907,
+        "file":  "modulo-mesas-vista-lista-terraza.png",
+        "height":  717
+    },
+    {
+        "group":  "4-mesas",
+        "width":  1907,
+        "file":  "modulo-mesas-vista-principal.png",
+        "height":  912
+    },
+    {
+        "group":  "4-mesas",
+        "width":  1912,
+        "file":  "modulo-mesas-vista-principal-edicion-mesas.png",
+        "height":  851
+    },
+    {
+        "group":  "4-mesas",
+        "width":  1912,
+        "file":  "modulo-mesas-vista-principal-edicion-terrazas.png",
+        "height":  862
+    },
+    {
+        "group":  "4-mesas",
+        "width":  1911,
+        "file":  "modulo-mesas-vista-terrazas.png",
+        "height":  690
+    }
+]

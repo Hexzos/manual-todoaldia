@@ -1,0 +1,332 @@
+{
+  "gestion14": {
+    "source": "7-ventas/modulo-ventas-vista-principal.png",
+    "file": "actual-gestion-14.png"
+  },
+  "gestion12": {
+    "source": "7-ventas/modulo-ventas-vista-principal-parte2.png",
+    "file": "actual-gestion-12.png"
+  },
+  "gestion11": {
+    "source": "7-ventas/modulo-ventas-vista-listado.png",
+    "file": "actual-gestion-11.png"
+  },
+  "gestion31": {
+    "source": "8-productos/modulo-productos-vista-principal.png",
+    "file": "actual-gestion-31.png"
+  },
+  "gestion26": {
+    "source": "8-productos/modulo-productos-vista-menu-categorias.png",
+    "file": "actual-gestion-26.png"
+  },
+  "gestion16": {
+    "source": "8-productos/modulo-productos-vista-menu-añadir-productos-parte2.png",
+    "file": "actual-gestion-16.png"
+  },
+  "gestion17": {
+    "source": "8-productos/modulo-productos-vista-menu-añadir-productos-parte3.png",
+    "file": "actual-gestion-17.png",
+    "crop": [
+      445,
+      115,
+      805,
+      460
+    ]
+  },
+  "gestion18": {
+    "source": "8-productos/modulo-productos-vista-menu-añadir-productos-parte4.png",
+    "file": "actual-gestion-18.png",
+    "crop": [
+      445,
+      135,
+      805,
+      490
+    ]
+  },
+  "gestion22": {
+    "source": "8-productos/modulo-productos-vista-menu-añadir-productos-parte6.png",
+    "file": "actual-gestion-22.png",
+    "crop": [
+      445,
+      280,
+      805,
+      485
+    ]
+  },
+  "gestion27": {
+    "source": "8-productos/modulo-productos-vista-menu-editar-productos.png",
+    "file": "actual-gestion-27.png"
+  },
+  "gestion29": {
+    "source": "8-productos/modulo-productos-vista-menu-importar-productos.png",
+    "file": "actual-gestion-29.png"
+  },
+  "gestion34": {
+    "source": "8-productos/modulo-productos-vista-stock.png",
+    "file": "actual-gestion-34.png"
+  },
+  "gestion33": {
+    "source": "8-productos/modulo-productos-vista-stock-menu-movimientos.png",
+    "file": "actual-gestion-33.png",
+    "crop": [
+      675,
+      213,
+      565,
+      500
+    ]
+  },
+  "gestion42": {
+    "source": "9-clientes/modulo-clientes-vista-principal.png",
+    "file": "actual-gestion-42.png"
+  },
+  "gestion39": {
+    "source": "9-clientes/modulo-clientes-vista-principal-item-cliente-referencial.png",
+    "file": "actual-gestion-39.png"
+  },
+  "gestion40": {
+    "source": "9-clientes/modulo-clientes-vista-principal-menu-editar.png",
+    "file": "actual-gestion-40.png",
+    "crop": [
+      0,
+      0,
+      515,
+      480
+    ]
+  },
+  "gestion7": {
+    "source": "10-gastos/modulo-gastos-vista-principal.png",
+    "file": "actual-gestion-7.png"
+  },
+  "gestion5": {
+    "source": "10-gastos/modulo-gastos-vista-principal-menu-nuevo-gasto.png",
+    "file": "actual-gestion-5.png"
+  },
+  "gestion4": {
+    "source": "10-gastos/modulo-gastos-vista-principal-menu-nuevo-gasto-agregar-producto.png",
+    "file": "actual-gestion-4.png"
+  },
+  "gestion3": {
+    "source": "10-gastos/modulo-gastos-vista-principal-menu-categorias.png",
+    "file": "actual-gestion-3.png"
+  },
+  "gestion9": {
+    "source": "11-configuracion/negocio/datos-del-negocio-vista-principal.png",
+    "file": "actual-gestion-9.png",
+    "crop": [
+      380,
+      70,
+      1490,
+      715
+    ]
+  },
+  "gestion8": {
+    "source": "11-configuracion/negocio/datos-del-negocio-vista-principal-parte2.png",
+    "file": "actual-gestion-8.png"
+  },
+  "config0": {
+    "source": "11-configuracion/negocio/banners-vista-principal.png",
+    "file": "actual-config-0.png",
+    "crop": [
+      380,
+      85,
+      1490,
+      765
+    ]
+  },
+  "config1": {
+    "source": "11-configuracion/negocio/canales-de-venta.png",
+    "file": "actual-config-1.png",
+    "crop": [
+      380,
+      90,
+      1490,
+      195
+    ]
+  },
+  "config4": {
+    "source": "11-configuracion/negocio/metodos-de-pago.png",
+    "file": "actual-config-4.png",
+    "crop": [
+      380,
+      95,
+      1490,
+      370
+    ]
+  },
+  "config5": {
+    "source": "11-configuracion/negocio/promociones-vista-crear-promocion-parte1.png",
+    "file": "actual-config-5.png",
+    "crop": [
+      395,
+      120,
+      1475,
+      770
+    ]
+  },
+  "config6": {
+    "source": "11-configuracion/negocio/promociones-vista-crear-promocion-parte2.png",
+    "file": "actual-config-6.png"
+  },
+  "config8": {
+    "source": "11-configuracion/negocio/tienda-online-parte1.png",
+    "file": "actual-config-8.png",
+    "crop": [
+      380,
+      90,
+      1490,
+      815
+    ]
+  },
+  "config9": {
+    "source": "11-configuracion/negocio/tienda-online-parte2.png",
+    "file": "actual-config-9.png",
+    "crop": [
+      380,
+      165,
+      1490,
+      690
+    ]
+  },
+  "config10": {
+    "source": "11-configuracion/negocio/whatsapp-business-vista-principal.png",
+    "file": "actual-config-10.png",
+    "crop": [
+      380,
+      100,
+      1490,
+      225
+    ]
+  },
+  "config11": {
+    "source": "11-configuracion/operacion/impresoras-vista-principal-parte1.png",
+    "file": "actual-config-11.png",
+    "crop": [
+      380,
+      105,
+      1490,
+      800
+    ]
+  },
+  "config12": {
+    "source": "11-configuracion/operacion/impresoras-vista-principal-parte2.png",
+    "file": "actual-config-12.png",
+    "crop": [
+      380,
+      285,
+      1490,
+      550
+    ]
+  },
+  "config13": {
+    "source": "11-configuracion/operacion/impresoras-vista-principal-parte3.png",
+    "file": "actual-config-13.png",
+    "crop": [
+      380,
+      90,
+      1490,
+      810
+    ]
+  },
+  "config14": {
+    "source": "11-configuracion/operacion/impresoras-vista-principal-parte4.png",
+    "file": "actual-config-14.png",
+    "crop": [
+      380,
+      290,
+      1490,
+      600
+    ]
+  },
+  "config15": {
+    "source": "11-configuracion/operacion/red-de-reparto-vista-principal-parte1.png",
+    "file": "actual-config-15.png",
+    "crop": [
+      380,
+      105,
+      1490,
+      465
+    ]
+  },
+  "config16": {
+    "source": "11-configuracion/operacion/repartidores-vista-principal-parte1.png",
+    "file": "actual-config-16.png",
+    "crop": [
+      380,
+      95,
+      1490,
+      765
+    ]
+  },
+  "config18": {
+    "source": "11-configuracion/operacion/zonas-de-reparto-vista-dibujar-zonas-parte2.png",
+    "file": "actual-config-18.png"
+  },
+  "config19": {
+    "source": "11-configuracion/operacion/zonas-de-reparto-vista-dibujar-zonas-parte3-dibujo-en-accion.png",
+    "file": "actual-config-19.png",
+    "crop": [
+      380,
+      85,
+      905,
+      500
+    ]
+  },
+  "config20": {
+    "source": "11-configuracion/operacion/zonas-de-reparto-vista-revision-parte1.png",
+    "file": "actual-config-20.png",
+    "crop": [
+      380,
+      95,
+      1490,
+      650
+    ]
+  },
+  "config21": {
+    "source": "11-configuracion/operacion/zonas-de-reparto-vista-revision-parte2.png",
+    "file": "actual-config-21.png",
+    "crop": [
+      380,
+      475,
+      1490,
+      390
+    ]
+  },
+  "config22": {
+    "source": "11-configuracion/operacion/zonas-de-reparto-vista-ubicar-local-parte1.png",
+    "file": "actual-config-22.png",
+    "crop": [
+      380,
+      110,
+      1490,
+      505
+    ]
+  },
+  "config23": {
+    "source": "11-configuracion/operacion/zonas-de-reparto-vista-ubicar-local-parte2.png",
+    "file": "actual-config-23.png"
+  },
+  "config24": {
+    "source": "11-configuracion/sistema/sistema-vista-principal-menu-nuevo-usuario.png",
+    "file": "actual-config-24.png"
+  },
+  "config25": {
+    "source": "11-configuracion/sistema/sistema-vista-principal-parte1.png",
+    "file": "actual-config-25.png",
+    "crop": [
+      380,
+      100,
+      1490,
+      420
+    ]
+  },
+  "config26": {
+    "source": "11-configuracion/sistema/sistema-vista-principal-parte2.png",
+    "file": "actual-config-26.png",
+    "crop": [
+      380,
+      705,
+      1490,
+      170
+    ]
+  }
+}

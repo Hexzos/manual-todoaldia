@@ -1,0 +1,18 @@
+:root {
+  --td-bg: #fffdf8;
+  --td-surface: #fff;
+  --td-orange: #ff6300;
+  --td-accent-text: #b84108;
+  --td-text: #1c1917;
+  --td-muted: #7a726b;
+  --td-border: #efe8dd;
+  --td-tint: #fff0e5;
+  --td-radius-sm: 12px;
+  --td-radius-lg: 24px;
+  --td-shadow-card: 0 6px 20px rgba(26, 23, 20, 0.07);
+  --td-space-xs: 8px;
+  --td-space-sm: 16px;
+  --td-space-md: 24px;
+  --td-space-lg: 32px;
+  --td-space-xl: 48px;
+}

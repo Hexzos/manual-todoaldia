@@ -1,0 +1,8 @@
+node_modules/
+docs/dist/*.pdf
+docs/dist/*.png
+docs/dist/*.jpg
+docs/dist/*.jpeg
+docs/dist/*.webp
+.DS_Store
+Thumbs.db
