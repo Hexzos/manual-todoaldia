@@ -57,7 +57,11 @@ Desde docs, `npm run docs:html` actualiza las fuentes y `npm run docs:pdf` gener
 
 ## Ayuda web de primeros pasos
 
-src/index.html es ahora el centro de ayuda web adaptable a escritorio y móvil. Reutiliza 89 temas de manual-content.mjs y las imágenes existentes. Incluye inicio por categorías, búsqueda por título y contenido, índice lateral plegable por grupo/módulo, ruta de navegación, anterior/siguiente y ampliación de capturas. El botón Mostrar/Ocultar índice permanece visible en la barra superior. El modo claro/oscuro y la preferencia del índice de escritorio se guardan localmente.
+src/index.html es ahora el centro de ayuda web adaptable a escritorio y móvil. Reutiliza 89 temas de manual-content.mjs y las imágenes existentes. Incluye inicio por categorías, búsqueda por título y contenido, índice lateral por grupo/módulo, ruta de navegación, anterior/siguiente y ampliación de capturas. El botón para mostrar u ocultar los temas permanece visible en la barra superior. El modo claro/oscuro y la preferencia del índice de escritorio se guardan localmente.
+
+La barra superior repite la disposición de la barra del sistema: identidad a la izquierda, con el símbolo de marca, el nombre y el estado «Todo al Día», y acciones a la derecha en botones redondeados. Las acciones son Ver todos los temas, Inicio, Buscar, Modo oscuro y Volver al sistema. En móvil la barra conserva la altura y deja Temas, Inicio y Modo oscuro. La dirección del panel se define en `plataforma` dentro de build-web.mjs.
+
+La navegación está pensada para quien recién comienza a usar sitios web. El índice lateral muestra los grupos y los módulos sin secciones que haya que abrir; el tema en pantalla queda marcado y el índice se desplaza hasta él. El inicio presenta la portada de la ayuda, la búsqueda, tres primeros pasos numerados, los tres grupos del recorrido, la grilla con los doce módulos del menú del sistema —inbox y reportes aparecen como PRONTO— y las tareas más consultadas. Los grupos van antes que los módulos para orientar primero y evitar la saturación de doce tarjetas. Cada tema termina con el paso anterior, el siguiente y el regreso al inicio de la ayuda.
 
 build-web.mjs genera el índice web; help.js controla la navegación y help.css define los estilos exclusivos de esta vista. npm run docs:html genera las tres guías y luego la ayuda web. npm run web:check verifica navegación, búsqueda, tema, imágenes ampliadas y ausencia de desbordamientos en los 89 temas a 1440 y 390 px. docs:check verifica únicamente las tres guías A4.
 
